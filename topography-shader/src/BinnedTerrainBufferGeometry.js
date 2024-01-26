@@ -1,4 +1,4 @@
-import { BufferGeometry, BufferAttribute } from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
+import { BufferGeometry, BufferAttribute } from 'three';
 
 export class BinnedTerrainBufferGeometry extends BufferGeometry {
 

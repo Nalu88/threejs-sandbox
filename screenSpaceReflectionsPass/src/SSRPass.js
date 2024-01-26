@@ -13,9 +13,9 @@ import {
 	LinearFilter,
 	LinearMipMapLinearFilter,
 	MathUtils,
-} from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
-import { Pass } from '//cdn.skypack.dev/three@0.130.1/examples/jsm/postprocessing/Pass.js';
-import { CopyShader } from '//cdn.skypack.dev/three@0.130.1/examples/jsm/shaders/CopyShader.js';
+} from 'three';
+import { Pass } from 'three/examples/jsm/postprocessing/Pass.js';
+import { CopyShader } from 'three/examples/jsm/shaders/CopyShader.js';
 import { ColorResolveShader } from './ColorResolveShader.js';
 import { MarchResultsShader } from './MarchResultsShader.js';
 import {

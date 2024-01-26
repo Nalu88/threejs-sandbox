@@ -1,4 +1,4 @@
-import { MeshPhysicalMaterial, LessEqualDepth, AdditiveBlending } from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
+import { MeshPhysicalMaterial, LessEqualDepth, AdditiveBlending } from 'three';
 import { ShaderReplacement } from '../../shader-replacement/src/ShaderReplacement.js';
 
 export class FinalTranslucentReplacement extends ShaderReplacement {

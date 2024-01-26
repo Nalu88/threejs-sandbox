@@ -4,7 +4,7 @@ import {
 	Mesh,
 	PlaneBufferGeometry,
 	ShaderMaterial,
-} from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
+} from 'three';
 
 export const blit = ( function () {
 

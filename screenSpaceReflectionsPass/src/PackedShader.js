@@ -1,4 +1,4 @@
-import { Matrix3, Vector2 } from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
+import { Matrix3, Vector2 } from 'three';
 
 export const PackedShader = {
 

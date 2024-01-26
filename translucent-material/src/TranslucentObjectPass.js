@@ -11,9 +11,9 @@ import {
 	NearestFilter,
 	HalfFloatType,
 	EqualDepth,
-} from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
-import { Pass, FullScreenQuad } from '//cdn.skypack.dev/three@0.130.1/examples/jsm/postprocessing/Pass.js';
-import { CopyShader } from '//cdn.skypack.dev/three@0.130.1/examples/jsm/shaders/CopyShader.js';
+} from 'three';
+import { Pass, FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
+import { CopyShader } from 'three/examples/jsm/shaders/CopyShader.js';
 import { TranslucentShader } from './TranslucentShader.js';
 import { LayerShader } from './LayerShader.js';
 import { CompositeShader } from './CompositeShader.js';

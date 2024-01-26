@@ -10,8 +10,8 @@ import {
 	DataTexture,
 	RepeatWrapping,
 	LinearFilter,
-} from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
-import { Pass, FullScreenQuad } from '//cdn.skypack.dev/three@0.130.1/examples/jsm/postprocessing/Pass.js';
+} from 'three';
+import { Pass, FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
 import { NormalPass } from '../../shader-replacement/src/passes/NormalPass.js';
 import { LinearDepthPass } from './LinearDepthPass.js';
 import { LinearDepthDisplayShader } from './DebugShaders.js';

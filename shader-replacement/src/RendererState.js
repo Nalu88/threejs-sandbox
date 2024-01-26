@@ -1,4 +1,4 @@
-import { Color, LinearEncoding } from '//cdn.skypack.dev/three@0.130.1/build/three.module.js';
+import { Color, LinearEncoding } from 'three';
 
 export class RendererState {
 
