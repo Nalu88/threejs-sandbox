@@ -8,7 +8,6 @@ import {
 	Color,
 	WebGLRenderTarget,
 	LinearFilter,
-	RGBFormat,
 	HalfFloatType,
 	Matrix4,
 	DataTexture,
@@ -18,7 +17,7 @@ import {
 	RepeatWrapping,
 	UniformsUtils,
 } from 'three';
-import { Pass, FullScreenQuad } from 'three';
+import { Pass, FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
 import { VelocityShader } from './VelocityShader.js';
 import { GeometryShader } from './GeometryShader.js';
 import { CompositeShader } from './CompositeShader.js';
@@ -51,7 +50,7 @@ for ( let i = 0, l = 1; i < l; i ++ ) {
 }
 
 // TODO: Why won't RedFormat work here?
-const blueNoiseTex = new DataTexture( data, generator.size, generator.size, RGBFormat );
+const blueNoiseTex = new DataTexture( data, generator.size, generator.size, RGBAFormat );
 blueNoiseTex.wrapS = RepeatWrapping;
 blueNoiseTex.wrapT = RepeatWrapping;
 blueNoiseTex.minFilter = LinearFilter;
