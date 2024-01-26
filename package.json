@@ -1,15 +1,18 @@
 {
 	"name": "@nalu1988/threejs-sandbox",
 	"version": "1.0.0",
-  "description": "Sandbox projects for ThreeJS",
+	"description": "Sandbox projects for ThreeJS",
 	"repository": "https://github.com/Nalu88/threejs-sandbox.git",
-  "scripts": {
-    "start": "static-server",
-    "lint": "eslint \"./**/*.js\""
-  },
-  "devDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-config-mdcs": "^4.2.3",
-    "static-server": "^2.2.1"
-  }
+	"scripts": {
+		"start": "static-server",
+		"lint": "eslint \"./**/*.js\""
+	},
+	"devDependencies": {
+		"eslint": "^7.11.0",
+		"eslint-config-mdcs": "^4.2.3",
+		"static-server": "^2.2.1"
+	},
+	"dependencies": {
+		"three": "^0.160.1"
+	}
 }
