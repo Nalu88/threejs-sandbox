@@ -13,6 +13,6 @@
 		"static-server": "^2.2.1"
 	},
 	"dependencies": {
-		"three": "^0.160.1"
+		"three": "^0.130.1"
 	}
 }
